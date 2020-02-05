@@ -210,3 +210,5 @@ yum工具:
 # cal 10 1988                   显示指定月，年的月历
 
 # date --date '1970-01-01 UTC 1427888888 seconds'   把一相对于1970-01-01 00:00的秒数转换成时间
+
+使用命令： sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other 如果每次重启之后想让系统自动挂载 #vi /etc/fstab: 在最后添加一行： .host:/ /mnt/hgfs fuse.vmhgfs-fuse allow_other 0 0
