@@ -1,3 +1,6 @@
+修改dock容器网段
+{"registry-mirrors": ["http://f1361db2.m.daocloud.io"],
+"bip":"172.16.0.1/24"}
 1.命令行下经常使用的命令
 
 Ctrl + U: 清除光标之前的字符
